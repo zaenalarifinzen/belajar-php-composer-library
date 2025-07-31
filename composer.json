@@ -1,0 +1,19 @@
+{
+    "name": "developerannur/belejar-php-composer-hello",
+    "description": "Library Composer Hello",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Zaenal Arifin",
+            "email": "zaenal.ariefin24@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DeveloperAnnur\\Belajar\\": "src/"
+        }
+    }
+}
